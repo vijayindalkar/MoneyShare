@@ -4,7 +4,7 @@ mongoose.connect(
   "mongodb+srv://Vijay:mmYVHo2KsiR2HsYN@cluster0.btjkz2i.mongodb.net/moneyShare"
 );
 
-const AdminSchema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({
   username: {
     type: String,
     required: true,
@@ -33,15 +33,8 @@ const AdminSchema = new mongoose.Schema({
   }
 });
 
-const UserSchema = new mongoose.Schema({
-  username: String,
-  password: String,
-});
-
-const Admin = mongoose.model("Admin", AdminSchema);
 const User = mongoose.model("User", UserSchema);
 
 module.exports = {
   User,
-  Admin,
 };
