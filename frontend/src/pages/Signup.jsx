@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { BottomWarning } from "../components/ButtonWarning";
 import { Button } from "../components/ButtonNormal";
-import { Heading } from "../components/HeadingMain";
+import { Heading } from "../components/Heading";
 import { InputBox } from "../components/InputBox";
-import { SubHeading } from "../components/SubHeading";
+import { SubHeading } from "../components/Subheading";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
@@ -16,6 +16,7 @@ export const Signup = () => {
 
   return (
     <div className="bg-slate-300 h-screen flex justify-center">
+      haisdhahsda
       <div className="flex flex-col justify-center">
         <div className="rounded-lg bg-white w-80 text-center p-2 h-max px-4">
           <Heading label={"Sign up"} />
