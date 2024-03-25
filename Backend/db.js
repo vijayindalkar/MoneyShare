@@ -22,18 +22,18 @@ const UserSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
-    minLength: 6,
+    // minLength: 6,
   },
   firstName: {
     type: String,
     required: true,
-    maxLength: 30,
+    maxLength: 50,
     trim: true,
   },
-  LastName: {
+  lastName: {
     type: String,
     required: true,
-    maxLength: 30,
+    maxLength: 50,
     trim: true,
   },
 });
@@ -55,5 +55,5 @@ const Account = mongoose.model("Account", accountSchema);
 
 module.exports = {
   User,
-  Account
+  Account,
 };
