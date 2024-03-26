@@ -2,7 +2,7 @@
 
 MoneyShare is a cutting-edge payment application that enables users to seamlessly transfer money to other registered users. With an intuitive interface and robust features, MoneyShare provides a hassle-free experience for managing your finances.
 
-![MoneyShare Logo](./frontend/src/assets/logo/money-share-high-resolution-logo-black-transparent.png)
+![MoneyShare Logo](./frontend/src/assets/logo/l-w-t.png)
 
 ## Features
 
