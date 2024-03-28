@@ -12,10 +12,7 @@ const signUpSchema = zod.object({
     .string()
     .min(3, { message: "Username must be minimun 3 characters long" })
     .max(30, { message: "Username cannot be longer than 30 Characters" }),
-  email: zod.string().email(),
-  password: zod
-    .string()
-    .min(6, { message: "Password must be minimun 6 Characters long" }),
+  password: zod.string(),
   firstName: zod.string(),
   lastName: zod.string(),
 });
